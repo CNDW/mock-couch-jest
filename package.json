@@ -1,0 +1,17 @@
+{
+  "name": "bugreport",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Travis Peterson <contact@travispeterson.us>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^21.2.1",
+    "mock-couch": "^0.1.9"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
